@@ -1,0 +1,175 @@
+::selection {
+  background: #ff025c; /* WebKit/Blink Browsers */
+  color: white;
+}
+
+::-moz-selection {
+  background: #ff025c; /* Gecko Browsers */
+  color: white;
+}
+
+img.logo {
+    max-width: 100px;
+    border-radius:100px;
+    border: 5px solid #ff025c;
+    margin: 5% 0;
+}
+
+.fav-icon-size {
+    width:32px;
+    height:32px;  
+    margin-top:-15px;  
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+.centered-text {
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    padding: 0px 50px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  h1 {
+      font-size: 28px;
+      line-height: 38px;
+      text-align: left;
+  }
+}
+
+
+h3 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+} 
+
+section
+p, a, p a {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a:hover img{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+} 
+
+a:hover p{
+/*    transform: scale(1.2);*/
+    font-size:2em;
+    background: #ff025c;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin:5px;
+} 
+
+a p {
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #ff025c;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #460019;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8a0031;
+}
+
+/* selected link */
+a:active {
+  color: #8a0031;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.row {
+    margin: 5% 0;
+}
+
+.ff025c {
+  color: #ff025c
+}
+
+.grey-not-black{
+  color: #4d4d4d;
+}
+
+#intro b {
+  color: #000 !important;
+}
+
+hr {
+  max-width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px dotted #ff025c;
+  padding: 0;
+  margin: 5% auto;
+}
+
+p {
+  padding: 0 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+#contact p {
+  max-width: 600px;
+  margin: 5% auto;
+}
+
+a.button  
+{
+  background: #ff025c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background:#ff939f;
+}
